@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form Open Recruitment BEM FIK 2022</title>
+    </head>
+    <body>
+        
+        <h1 >
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Logo_udinus1.jpg/150px-Logo_udinus1.jpg"
+                    style="float:left;" width="100" height="100">
+            <img src="https://bima.dinus.ac.id/gallery/thumbs/bem_fasilkom_thumb.png"
+                    style="float:left;" width="100" height="100">
+            Universitas Dian Nuswantoro
+        </h1>
+        <h2>
+            Badan Eksekutif Mahasiswa Fakultas Ilmu Komputer
+        </h2><br>
+        <p>Isilah Data dibawah ini dengan benar</p>
+            <form id="form1" name="form1" method="post" action="kirim.php">
+            <table>
+                <tr>
+                    <td>NIM</td>
+                    <td><input type="number" name="fnim"></td>
+                </tr>
+                <tr>
+                    <td>Nama</td>
+                    <td><input type="text" name="fname" ></td>
+                </tr>
+                <tr>
+                    <td>Program Studi</td>
+                    <td>
+                        <select name="fprodi">
+                            <option value="">Pilih Program Studi</option>
+                            <option value="A11">S1 - Teknik Informatika</option>
+                            <option value="A12">S1 - Sistem Informasi</option>
+                            <option value="A22">D3 - Teknik informatika</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Tgl Lahir</td>
+                    <td><input type="date" name="ftgl_lhr" required></td>
+                </tr>
+                <tr>
+                    <td>Bidang Minat</td>
+                    <td>
+                        <input type="checkbox" name="hobby1" value="101">
+                        <label for="hobby1">Web Developer</label><br>
+                        <input type="checkbox" name="hobby2" value="102">
+                        <label for="hobby2">Mobile Developer</label><br>
+                        <input type="checkbox" name="hobby3" value="103">
+                        <label for="hobby3">Data Science</label><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Minat Posisi</td>
+                    <td>    
+                        <select name="fposisi">
+                            <option value="">--Pilih Posisi Pertama--</option>
+                            <option value="1">KOMINFO</option>
+                            <option value="2">KPSDM</option>
+                            <option value="3">MIKAT</option>
+                            <option value="4">P3</option>
+                            <option value="5">KWU</option>
+                            <option value="6">PR</option>
+                        </select>
+                    </td>
+                    <td>    
+                        <select name="fposisi">
+                            <option value="">--Pilih Posisi Kedua--</option>
+                            <option value="1">KOMINFO</option>
+                            <option value="2">KPSDM</option>
+                            <option value="3">MIKAT</option>
+                            <option value="4">P3</option>
+                            <option value="5">KWU</option>
+                            <option value="6">PR</option>
+                        </select>
+                    </td>
+                </tr>
+                   
+                <tr>
+                    <td>Upload CV</td>
+                    <td><input type="file" name="fcv" required><sub>format doc, doxc, pdf.</sub></td>
+                </tr>
+                <tr>
+                    <td>No. WA</td>
+                    <td><input type="number" name="fno_wa"></td>
+                </tr>
+                <tr>
+                    <td>Nama Orang Tua</td>
+                    <td><input type="text" name="fname_ortu"></td>
+                </tr>
+                <tr>
+                    <td>No. WA Orang Tua</td>
+                    <td><input type="number" name="fno_wa_ortu"></td>
+                </tr>
+                <tr>
+                    <td>Surat Persetujuan Orang Tua</td>
+                    <td><input type="file" name="ffile_ortu"> <sub>format doc, doxc, pdf.</sub></td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center"><input type="submit" name="fkirim" value="kirim"> </td>
+                </tr>
+            </table>
+
+
+        </form>
+
+    </body>
+
+
+
+
+
+
+</html>

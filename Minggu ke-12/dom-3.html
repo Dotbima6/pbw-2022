@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM API Javascript</title>
+</head>
+<body>
+    <p class="paragraf">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum non officiis maiores debitis nobis, impedit repellendus ea eos, commodi totam quidem quod quia vel atque doloremque. Ad placeat nesciunt repudiandae!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam quos odit ab quis corporis earum accusamus facere animi suscipit qui. Quidem maiores vel obcaecati harum ipsa veniam suscipit alias? Aliquam?
+    </p>
+
+    <p class="paragraf">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam consectetur sit tempora et eligendi? Minima, quam iure. Magni sit consectetur repudiandae, dicta quis in repellat ducimus qui dolores facilis placeat!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt illo necessitatibus molestias ipsum quae doloribus, dolore esse eos, eaque dolor dolorum nobis aliquam dignissimos quod, illum omnis vel fuga. Minus!
+    </p>
+
+    <p class="paragraf">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia consectetur eveniet dolorem veritatis error adipisci vero repudiandae impedit laudantium nam nesciunt accusamus cumque distinctio voluptatibus tempora corrupti, exercitationem aut ratione.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut commodi ipsam maiores, at pariatur ipsa harum, ab nihil tempora saepe ratione nesciunt deserunt quia! Illo nam id nobis cupiditate ratione!
+    </p>
+
+    
+    <script>
+        var paragraf = document.getElementsByClassName("paragraf");
+        setInterval(function () {
+            paragraf[0].style.color = "red";
+            paragraf[1].style.color = "green";
+            paragraf[2].style.color = "blue";
+
+            setTimeout(function () {
+                paragraf[0].style.color = "black";
+                paragraf[1].style.color = "black";
+                paragraf[2].style.color = "black";
+            }, 500)
+        }, 1000);
+
+       
+    </script>
+</body>
+</html>

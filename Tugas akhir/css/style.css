@@ -286,3 +286,38 @@ h2 {
     margin-top: 100px;
     width: 100%;
 }
+
+.figure-caption {
+    color: #2E1F1F;
+    font-size: 20px;
+    font-weight: 400;
+
+}
+
+
+/*Tentang Section*/
+.tentang-tagline h1 {
+    color: #2E1F1F;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 55px;
+    margin-top: 100px;
+    width: 100%;
+}
+
+
+/*Menu Section*/
+
+.kotak-menu{
+    width: 380px;
+    height: 550px;
+    background-color: #FFF5E7;
+    border-radius: 5px;
+    box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0.05);
+    margin-bottom: 100px;
+    z-index: 2;
+}
+
+.gambar {
+    z-index: 2;
+}
